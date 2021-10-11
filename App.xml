@@ -2,8 +2,24 @@ public static void sampleMethod(int a, int b) throws ArithmeticException{
         System.out.println("Hello, this is sample method");
         int c = a/b; //  int c = 4/2 which gets calculated as 2 
         System.out.println("c:"+c); // c: 2
+
+   } 
+   #new methods has implemented by vamsi for the feature8.7
+   public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+  }
+
    }
 #new method added by developer praveen for feature8.3 branch   
    public static void main (String[] args){
     DemoClass.sampleMethod(4,2);     
  }
+
